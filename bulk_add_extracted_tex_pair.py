@@ -11,7 +11,7 @@ def track_text(text_ids):
             continue
         bo_text_path.touch()
         en_text_path.touch()
-        print("-Added", text_id)
+        print("- Added", text_id)
 
 if __name__ == "__main__":
     text_ids_path = Path(sys.argv[1])
